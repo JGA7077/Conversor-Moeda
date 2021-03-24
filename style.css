@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+main {
+    background-image: url('./assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+main h1, main h2 {
+    text-shadow: 3px 3px 3px #E9AE0B;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.card {
+    background-color: #57c478a8;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 90%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px #E9AE0B;
+    padding: 15px;
+}
+
+form {
+    padding: 15px;
+}
+
+form input::placeholder {
+    text-align: center;
+}
+
+form input[type="number"] {
+    padding: 5px;
+    
+}
+
+form input[type="number"], button {
+    border: 2px solid #1B8366;
+    border-radius: 10px;
+}
+
+button {
+    color: #fff;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #57C478;
+}
+
+.card p {
+    padding: 5px;
+}
+
+.card a {
+    text-decoration: none;
+    text-shadow: 2px 2px #E9AE0B;
+    color: rgb(38, 84, 129);
+    font-weight: 700;
+}
